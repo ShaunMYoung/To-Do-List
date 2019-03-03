@@ -6,9 +6,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(51, 132, 138);
+}
+.App {
+  width:50vw;
+  margin:auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#reminder {
+  background: rgba(255, 255, 255, 0.301);
+  width: 25vw;
+  font-size: 25pt;
+  border: solid white;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+#submit {
+  background: white;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 25pt;
+  color: rgba(51, 132, 138, 0.5);
+}
+
+form {
+  margin: 10rem;
+}
+
+::placeholder {
+  color: white;
+}
+
+ul {
+  color:white;
+  font-size: 25pt;
+  text-align: left;
+  list-style-type: none;
+}
+
+li {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
