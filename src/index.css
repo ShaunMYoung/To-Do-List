@@ -23,11 +23,19 @@ body {
   color: white;
 }
 #submit {
-  background: white;
+  background: rgba(255, 255, 255, 0.301);
   margin: 10px;
+  border: solid white;
   border-radius: 10px;
   font-size: 25pt;
-  color: rgba(51, 132, 138, 0.5);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#submit:active {
+  background: rgba(255, 255, 255, 0);
+
 }
 
 form {
@@ -49,5 +57,21 @@ li {
   border: 2px solid white;
   border-radius: 10px;
   margin: 10px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.171);
+}
+
+.delete {
+  text-align: right;
+  color: rgba(255, 255, 255, 0.74);
+  float: right;
+}
+
+.delete:hover {
+  color:white;
+  cursor: pointer;
 }
