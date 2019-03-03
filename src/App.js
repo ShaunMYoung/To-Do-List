@@ -15,7 +15,7 @@ class App extends Component {
   }
   onAdd(todo) {
     const newTodos = this.state.reminders.slice();
-    newTodos.push(todo);
+    newTodos.unshift(todo);
     this.setState({
       reminders: newTodos,
     });
@@ -34,7 +34,7 @@ class App extends Component {
     let { reminders} = this.state;
     reminders = reminders.map((todo) => {
       return (
-        <RemoveTodo todo={todo} key={todo.toString()} onRemove={this.onRemove}/>
+        <RemoveTodo todo={todo} onRemove={this.onRemove}/>
       );
     });
     return (
