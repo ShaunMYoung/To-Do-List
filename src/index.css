@@ -9,14 +9,14 @@ body {
   background: rgb(51, 132, 138);
 }
 .App {
-  width:50vw;
+  width:750px;
   margin:auto;
 }
 
 #reminder {
   background: rgba(255, 255, 255, 0.301);
-  width: 25vw;
-  font-size: 25pt;
+  width: 22vw;
+  font-size: 20pt;
   border: solid white;
   border-radius: 10px;
   padding: 5px;
@@ -28,7 +28,7 @@ body {
   margin: 10px;
   border: solid white;
   border-radius: 10px;
-  font-size: 25pt;
+  font-size: 20pt;
   color: white;
   padding: 5px;
   cursor: pointer;
@@ -40,7 +40,8 @@ body {
 }
 
 form {
-  margin: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 
 ::placeholder {
@@ -49,7 +50,7 @@ form {
 
 ul {
   color:white;
-  font-size: 25pt;
+  font-size: 20pt;
   text-align: left;
   list-style-type: none;
 }
