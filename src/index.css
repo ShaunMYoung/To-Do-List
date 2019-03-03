@@ -22,6 +22,7 @@ body {
   padding: 5px;
   color: white;
 }
+
 #submit {
   background: rgba(255, 255, 255, 0.301);
   margin: 10px;
@@ -75,3 +76,46 @@ li:hover {
   color:white;
   cursor: pointer;
 }
+
+@media (max-device-height: 500px) {
+  .App{
+    width: 100vw;
+    }
+  .reminder {
+    display: flex;
+    margin: 0 auto;
+  
+    }
+  #reminder {
+    width: 95vw;
+    font-size: 15pt;
+  }
+  
+  li {
+    font-size: 15pt;
+    margin: 0 auto;
+    width: 65vw;
+  }
+  }
+
+  @media (max-device-width: 500px) { 
+    .App{
+      width: 100vw;
+      }
+    .reminder {
+      display: flex;
+      margin: 0 auto;
+    
+      }
+    #reminder {
+      width: 70vw;
+      font-size: 15pt;
+    }
+    
+    li {
+      font-size: 15pt;
+      margin: 0 auto;
+      width: 65vw;
+    }
+    }
+    
